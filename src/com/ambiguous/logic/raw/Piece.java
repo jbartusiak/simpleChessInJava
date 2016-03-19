@@ -41,4 +41,10 @@ public abstract class Piece implements Moveable, Drawable {
     public String toString() {
         return m_color+ " " + m_type.name()+" at x:"+m_x+", y:"+m_y;
     }
+
+    @Override
+    public void move(int x, int y) {
+        setX(x*100);
+        setY(y*100);
+    }
 }

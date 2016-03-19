@@ -30,12 +30,4 @@ public class Bishop extends Piece {
         else return false;
     }
 
-    @Override
-    public void move(int x, int y) {
-        x*=100;
-        y*=100;
-
-        setX(x);
-        setY(y);
-    }
 }

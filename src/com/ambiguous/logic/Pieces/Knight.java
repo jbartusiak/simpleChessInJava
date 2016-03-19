@@ -24,11 +24,13 @@ public class Knight extends Piece {
 
     @Override
     public boolean isValidMove(int x, int y) {
-        throw new UnimplementedException();
-    }
+        x*=100;
+        y*=100;
+        double dX = Math.abs(x-getX());
+        double dY = Math.abs(y-getY());
 
-    @Override
-    public void move(int x, int y) {
-        throw new UnimplementedException();
+        if(dX==100&&dY==200) return true;
+        else if (dX==200&&dY==100) return true;
+        else return false;
     }
 }
