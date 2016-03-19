@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="537a3e3d-1afb-404a-aad9-6ebb9d690bbc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Bishop.java" afterPath="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Bishop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Knight.java" afterPath="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Knight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ambiguous/logic/raw/Piece.java" afterPath="$PROJECT_DIR$/src/com/ambiguous/logic/raw/Piece.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/King.java" afterPath="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/King.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Queen.java" afterPath="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Queen.java" />
     </list>
     <ignored path="IntelliJ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,27 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChessBoardListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/listeners/ChessBoardListener.java">
+      <file leaf-file-name="King.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/King.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#mousePressed#0;class#ChessBoardListener#0" expanded="false" />
-                <element signature="method#mouseReleased#0;class#ChessBoardListener#0" expanded="false" />
-                <element signature="method#mouseEntered#0;class#ChessBoardListener#0" expanded="false" />
-                <element signature="method#mouseExited#0;class#ChessBoardListener#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/raw/Piece.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Knight.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Knight.java">
+      <file leaf-file-name="Queen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Queen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +100,6 @@
         <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/PieceIdentity.java" />
         <option value="$PROJECT_DIR$/src/com/ambiguous/interfaces/Drawable.java" />
         <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Piece.java" />
-        <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/King.java" />
-        <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Queen.java" />
         <option value="$PROJECT_DIR$/src/com/ambiguous/logic/PieceIdentity.java" />
         <option value="$PROJECT_DIR$/src/com/ambiguous/logic/raw/Type.java" />
         <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Pawn.java" />
@@ -128,6 +109,8 @@
         <option value="$PROJECT_DIR$/src/com/ambiguous/logic/raw/Piece.java" />
         <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Bishop.java" />
         <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Knight.java" />
+        <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/King.java" />
+        <option value="$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Queen.java" />
       </list>
     </option>
   </component>
@@ -798,26 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Queen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/raw/PieceIdentity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -851,19 +814,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/GUI/Checkboard.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Pawn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="289">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;field#piecesList#0;class#Checkboard#0" expanded="false" />
-            <element signature="method#Checkboard#0;class#Checkboard#0" expanded="false" />
-            <element signature="method#addPieces#0;class#Checkboard#0" expanded="false" />
-            <element signature="docComment;method#addComponents#0;class#Checkboard#0" expanded="false" />
-            <element signature="method#initializeFrame#0;class#Checkboard#0" expanded="false" />
-            <element signature="method#clear#0;class#Checkboard#0" expanded="false" />
-            <element signature="method#drawCheckboard#0;class#Checkboard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/raw/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -882,12 +868,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Pawn.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/GUI/Checkboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;field#piecesList#0;class#Checkboard#0" expanded="false" />
+            <element signature="method#Checkboard#0;class#Checkboard#0" expanded="false" />
+            <element signature="method#addPieces#0;class#Checkboard#0" expanded="false" />
+            <element signature="docComment;method#addComponents#0;class#Checkboard#0" expanded="false" />
+            <element signature="method#initializeFrame#0;class#Checkboard#0" expanded="false" />
+            <element signature="method#clear#0;class#Checkboard#0" expanded="false" />
+            <element signature="method#drawCheckboard#0;class#Checkboard#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -902,30 +895,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Bishop.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/King.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/raw/Piece.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Queen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ambiguous/logic/Pieces/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

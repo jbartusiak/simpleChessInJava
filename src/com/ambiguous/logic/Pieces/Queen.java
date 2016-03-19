@@ -24,11 +24,7 @@ public class Queen extends Piece{
 
     @Override
     public boolean isValidMove(int x, int y) {
-        throw new UnimplementedException();
-    }
 
-    @Override
-    public void move(int x, int y) {
-        throw new UnimplementedException();
+        
     }
 }

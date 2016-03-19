@@ -24,11 +24,12 @@ public class King extends Piece {
 
     @Override
     public boolean isValidMove(int x, int y) {
-        throw new UnimplementedException();
+        x*=100;y*=100;
+
+        int dX = Math.abs(x-getX());
+        int dY = Math.abs(y-getY());
+
+        return dX<=100&&dY<=100;
     }
 
-    @Override
-    public void move(int x, int y) {
-        throw new UnimplementedException();
-    }
 }
