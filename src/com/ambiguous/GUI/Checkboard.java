@@ -1,5 +1,6 @@
 package com.ambiguous.GUI;
 
+import com.ambiguous.containers.ArrayContainer;
 import com.ambiguous.logic.listeners.ChessBoardListener;
 import com.ambiguous.logic.raw.Piece;
 import com.ambiguous.logic.raw.PieceColor;
@@ -22,7 +23,7 @@ public class Checkboard extends JComponent {
      * @param m_size - rozmiar okna i kanwy
      * @param listener - obiekt implementujący MouseListener i obsługujący wydarzenia na polu
      */
-    private ArrayList<Piece> piecesList;
+    private ArrayContainer<Piece> piecesList;
     private BufferedImage picture;
     private JFrame mainFrame;
     private Graphics2D ctx;
@@ -40,7 +41,7 @@ public class Checkboard extends JComponent {
         setMinimumSize(m_size);
 
         addComponents();
-        piecesList = new ArrayList<>();
+        piecesList = new ArrayContainer<>();
 
         addPieces();
 

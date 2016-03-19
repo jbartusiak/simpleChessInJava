@@ -23,7 +23,9 @@ public class ChessBoardListener implements MouseListener {
     @Override
     public void mouseClicked(MouseEvent e) {
         if(currentPiece==null) {
+            System.out.println("looking up");
             currentPiece=lookUpSpot(e.getX()/100,e.getY()/100, true);
+
         }
         else{
             movePiece(e.getX()/100,e.getY()/100);

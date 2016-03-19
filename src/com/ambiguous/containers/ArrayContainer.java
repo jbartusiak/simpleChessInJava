@@ -33,10 +33,15 @@ public class ArrayContainer<T>{
         if(index>=m_size) throw new ArrayIndexOutOfBoundsException();
         ArrayContainer<T> temp = new ArrayContainer<>();
         for (int i=0; i<m_size; i++){
-            if(i!=index-1) temp.add(m_array[i]);
+            if(i!=index) temp.add(m_array[i]);
         }
         m_size--;
         m_array=temp.getArray();
+        System.out.println("Removed item no"+index);
+    }
+
+    public int size(){
+        return m_size;
     }
 
     private T[] getArray(){
