@@ -24,11 +24,18 @@ public class Bishop extends Piece {
 
     @Override
     public boolean isValidMove(int x, int y) {
-        throw new UnimplementedException();
+        x*=100;
+        y*=100;
+        if(Math.abs(x-getX())==Math.abs(y-getY())) return true;
+        else return false;
     }
 
     @Override
     public void move(int x, int y) {
-        throw new UnimplementedException();
+        x*=100;
+        y*=100;
+
+        setX(x);
+        setY(y);
     }
 }
