@@ -10,8 +10,6 @@ import com.ambiguous.logic.raw.Type;
  * Created by Kubuś on 2016-03-19.
  */
 public class Rook extends Piece{
-
-
     public Rook(int x, int y, PieceColor c){
         super(x,y,c);
         m_type= Type.ROOK;
@@ -26,11 +24,16 @@ public class Rook extends Piece{
 
     @Override
     public boolean isValidMove(int x, int y) {
-        throw new UnimplementedException();
+        x*=100;
+        y*=100;
+        if(x==getX()) return true;
+        else if (y==getY()) return true;
+        else return false;
     }
 
     @Override
     public void move(int x, int y) {
-        throw new UnimplementedException();
+        setX(x*100);
+        setY(y*100);
     }
 }
