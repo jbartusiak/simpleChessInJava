@@ -31,10 +31,10 @@ public class Pawn extends Piece{
     public boolean isValidMove(int x, int y) {
         x*=100;y*=100;
         if(m_color==PieceColor.WHITE){
-            if (Math.abs(getY()-y)==100&&getY()>y) return true;
+            if ((Math.abs(getY()-y)<=200&&getY()>y)&&x==getX()) return true;
         }
         else{
-            if (Math.abs(getY()-y)==100&&getY()<y) return true;
+            if (Math.abs(getY()-y)<=200&&getY()<y&&x==getX()) return true;
         }
         return false;
     }

@@ -14,10 +14,11 @@ public class Player {
     public void switchTurn(){
         if (m_turn==Turn.WHITE)m_turn=Turn.BLACK;
         else m_turn=Turn.WHITE;
+        System.out.println(m_turn.name()+"'s turn");
     }
 
-    public Turn getCurrentTurn(){
-        return m_turn;
+    public PieceColor getCurrentTurn(){
+        return m_turn==Turn.WHITE?PieceColor.WHITE:PieceColor.BLACK;
     }
 
     public void whiteIncrement(){m_white++;}

@@ -170,13 +170,13 @@ public class Checkboard extends JComponent {
      * @param remove Jeżeli true, to znaleziony pionek powinien zostać usunięty z planszy.
      * @return Pionek znaleziony w punkcie lub null gdy w danym punkcie nie ma pionka
      */
-    public Piece lookUpSpot(int x, int y, boolean remove){
+    public Piece lookUpSpot(int x, int y, boolean remove, PieceColor c){
         Piece pieceFound = null;
         x*=100;
         y*=100;
         for (int i=0; i<piecesList.size();i++){
             Piece currentPiece = piecesList.get(i);
-            if(x==currentPiece.getX()&&y==currentPiece.getY()) {
+            if(x==currentPiece.getX()&&y==currentPiece.getY()&&currentPiece.getColor()==c) {
                 pieceFound = currentPiece;
                 if(remove) piecesList.remove(i);
                 break;
