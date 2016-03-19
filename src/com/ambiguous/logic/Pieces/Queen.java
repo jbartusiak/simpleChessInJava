@@ -1,6 +1,5 @@
 package com.ambiguous.logic.Pieces;
 
-import com.ambiguous.exception.UnimplementedException;
 import com.ambiguous.logic.raw.Piece;
 import com.ambiguous.logic.raw.PieceColor;
 import com.ambiguous.logic.raw.PieceIdentity;
@@ -24,7 +23,13 @@ public class Queen extends Piece{
 
     @Override
     public boolean isValidMove(int x, int y) {
+        x*=100;
+        y*=100;
+        int dX = Math.abs(x-getX());
+        int dY=Math.abs(y-getY());
 
-        
+        if(dX==dY) return true;
+        else if (x==getX()||y==getY()) return true;
+        else return false;
     }
 }
