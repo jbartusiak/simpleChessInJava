@@ -22,6 +22,7 @@ public abstract class Piece implements Moveable, Drawable {
         initIdentity();
     }
 
+
     protected abstract void initIdentity();
 
     public int getX(){return m_x;}

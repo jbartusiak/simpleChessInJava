@@ -182,6 +182,7 @@ public class Checkboard extends JComponent {
                 break;
             }
         }
+        System.out.println("Item at 0 from overloaded get: "+piecesList.get());
         return pieceFound;
     }
 

@@ -5,7 +5,24 @@ package com.ambiguous.logic.raw;
  */
 public class Player {
     private Turn m_turn;
-    int m_white, m_black;
+    Points m_white, m_black;
+
+    class Points<T extends Integer>{
+        T val;
+
+        public Points(){
+            val = (T)new Integer(1);
+        }
+
+        public void grow(){
+            int temp = val.intValue();
+            val = (T)new Integer(temp+1);
+        }
+
+        public int get(){
+            return val.intValue();
+        }
+    }
 
     public Player(){
         m_turn = Turn.WHITE;
@@ -21,6 +38,10 @@ public class Player {
         return m_turn==Turn.WHITE?PieceColor.WHITE:PieceColor.BLACK;
     }
 
-    public void whiteIncrement(){m_white++;}
-    public void blackIncrement(){m_black++;}
+    public void whiteIncrement(){m_white.grow();}
+    public void blackIncrement(){m_black.grow();}
+
+    public String toString(){
+        return "WHITE: "+m_white.get()+" BLACK: "+m_black.get();
+    }
 }

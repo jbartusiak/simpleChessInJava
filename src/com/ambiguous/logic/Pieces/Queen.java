@@ -32,4 +32,5 @@ public class Queen extends Piece{
         else if (x==getX()||y==getY()) return true;
         else return false;
     }
+
 }
